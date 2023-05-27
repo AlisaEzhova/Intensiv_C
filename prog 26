@@ -1,0 +1,20 @@
+//Задание 26
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, c;
+
+    cout << "Введите длину первого катета: ";
+    cin >> a;
+
+    cout << "Введите длину второго катета: ";
+    cin >> b;
+
+    c = sqrt(a * a + b * b); // вычисляем гипотенузу
+
+    cout << "Длина гипотенузы: " << c << endl;
+
+    return 0;
+}
