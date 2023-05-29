@@ -1,0 +1,16 @@
+//Задание 39
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, temp;
+    cout << "Введите значение переменной a: ";
+    cin >> a;
+    cout << "Введите значение переменной b: ";
+    cin >> b;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "После обмена значениями: a = " << a << ", b = " << b << endl;
+    return 0;
+}
