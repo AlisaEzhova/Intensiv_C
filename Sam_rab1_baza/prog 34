@@ -1,0 +1,20 @@
+//Задание 34
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, sum, diff, prod, quot;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    sum = a + b;
+    diff = a - b;
+    prod = a * b;
+    quot = a / b;
+    cout << "Сумма равна " << sum << endl;
+    cout << "Разность равна " << diff << endl;
+    cout << "Произведение равно " << prod << endl;
+    cout << "Частное равно " << quot << endl;
+    return 0;
+}
