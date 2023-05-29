@@ -1,0 +1,115 @@
+//Задание 42 а)
+
+#include <iostream>
+using namespace std;
+int main() {
+    float a;
+    cin >> a;
+    float a2= a * a;
+    float a3 = a2 * a;
+    float a5 = a * a * a * a * a;
+    float a10 = a5 * a5;
+    cout << a3 << "," << a5;
+}
+
+
+//Задание 42 б)
+
+#include <iostream>
+using namespace std;
+int main() {
+    float a;
+    cin >> a;
+    float a2 = a * a;
+    float a4 = a2 * a2;
+    float a5 = a * a * a * a * a;
+    float a10 = a5 * a5;
+    float a20 = a10 * a10;
+    cout << a4 << "," << a20;
+    return 0;
+}
+
+//Задание 42 в)
+
+#include <iostream>
+using namespace std;
+int main() {
+    float a;
+    cin >> a;
+    float a2 = a * a;
+    float a3 = a2 * a;
+    float a4 = a2 * a2;
+    float a5 = a4 * a;
+    float a13 = a5 * a5 * a3;
+    cout << a5 << "," << a13;
+    return 0;
+}
+
+//Задание 42 г)
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a;
+    cout << "Введите вещественное число a: ";
+    cin >> a;
+    
+    double a2 = a * a; // a^2
+    double a4 = a2 * a2; // a^4
+    double a8 = a4 * a4; // a^8
+    double a16 = a8 * a8; // a^16
+    
+    double a15 = a * a4 * a8; // a^15
+    double a19 = a * a4 * a16; // a^19
+    
+    cout << "a^15 = " << a15 << endl;
+    cout << "a^19 = " << a19 << endl;
+    
+    return 0;
+}
+
+//Задание д)
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a;
+    cout << "Введите вещественное число a: ";
+    cin >> a;
+    
+    double a2 = a * a; // a^2
+    double a4 = a2 * a2; // a^4
+    double a5 = a * a4; // a^5
+    double a8 = a4 * a4; // a^8
+    double a16 = a8 * a8; // a^16
+    double a17 = a * a16; // a^17
+    
+    cout << "a^2 = " << a2 << endl;
+    cout << "a^5 = " << a5 << endl;
+    cout << "a^17 = " << a17 << endl;
+    
+    return 0;
+}
+
+//Задание е)
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a;
+    cout << "Введите вещественное число a: ";
+    cin >> a;
+    
+    double a2 = a * a; // a^2
+    double a4 = a2 * a2; // a^4
+    double a8 = a4 * a4; // a^8
+    double a12 = a4 * a8; // a^12
+    double a16 = a8 * a8; // a^16
+    double a26 = a16 * a8 * a2; // a^26
+    
+    cout << "a^4 = " << a4 << endl;
+    cout << "a^12 = " << a12 << endl;
+    cout << "a^26 = " << a26 << endl;
+    
+    return 0;
+}
