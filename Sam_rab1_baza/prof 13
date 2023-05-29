@@ -1,0 +1,25 @@
+//Задание 13, а)
+#include <iostream>
+using namespace std;
+
+int main() {
+    double x, y;
+    cout << "Введите значение x: ";
+    cin >> x;
+    y = 7 * x * x - 3 * x + 6;
+    cout << "Значение функции y = 7x^2 - 3x + 6 при x = " << x << " равно " << y << endl;
+    return 0;
+}
+
+//Задание 13, б)
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, x;
+    cout << "Введите значение a: ";
+    cin >> a;
+    x = 12 * a * a + 7 * a - 16;
+    cout << "Значение функции x = 12a^2 + 7a - 16 при a = " << a << " равно " << x << endl;
+    return 0;
+}
