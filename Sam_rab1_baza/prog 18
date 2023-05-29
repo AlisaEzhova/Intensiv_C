@@ -1,0 +1,15 @@
+//Задание 18
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    const double R = 6350; // радиус Земли в км
+    double h, d;
+    cout << "Введите высоту над Землей в км: ";
+    cin >> h;
+    d = sqrt(pow(R + h, 2) - pow(R, 2));
+    cout << "Расстояние до линии горизонта: " << d << " км" << endl;
+    return 0;
+}
