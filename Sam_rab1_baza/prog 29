@@ -1,0 +1,16 @@
+//Задание 29
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, h, perimeter;
+    cout << "Введите основание a: ";
+    cin >> a;
+    cout << "Введите основание b: ";
+    cin >> b;
+    cout << "Введите высоту h: ";
+    cin >> h;
+    perimeter = a + b + 2 * sqrt(pow((a - b) / 2, 2) + pow(h, 2));
+    cout << "Периметр трапеции равен " << perimeter << endl;
+    return 0;
+}
