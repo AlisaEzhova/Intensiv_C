@@ -1,0 +1,24 @@
+//Задание 14
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    int f;
+    float m;
+    cout << "Введите угол";
+    cin >> a;
+    cout << "Введите массу";
+    cin >> m;
+    cout << "Если тело скользит по плоскости, то напишите 1, а если в состоянии покоя, то 2";
+    cin >> f;
+    if (f == 1)
+    {
+        cout << m * 9.8 * cos(a) * tan(a);
+    }
+    else
+    {
+        cout << m * 9.8 * sin(a);
+    }
+}
