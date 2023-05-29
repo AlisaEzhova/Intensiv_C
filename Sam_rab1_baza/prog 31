@@ -1,0 +1,17 @@
+//Задание 31
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, x, y;
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+    x = 2 / (pow(a, 2) + 25) + b / sqrt(b) + a + b / 2;
+    y = abs(a) + 2 * sin(b) / (5.5 * a);
+    cout << "Значение функции x равно " << x << endl;
+    cout << "Значение функции y равно " << y << endl;
+    return 0;
+}
