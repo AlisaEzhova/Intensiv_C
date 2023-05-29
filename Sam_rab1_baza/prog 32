@@ -1,0 +1,17 @@
+//Задание 32
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, avg_arith, avg_geom;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    avg_arith = (abs(a) + abs(b)) / 2;
+    avg_geom = sqrt(abs(a) * abs(b));
+    cout << "Среднее арифметическое модулей равно " << avg_arith << endl;
+    cout << "Среднее геометрическое модулей равно " << avg_geom << endl;
+    return 0;
+}
