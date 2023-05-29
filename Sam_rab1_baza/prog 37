@@ -1,0 +1,17 @@
+//Задание 37
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, alpha, area;
+    cout << "Введите длину меньшего основания трапеции: ";
+    cin >> a;
+    cout << "Введите длину большего основания трапеции: ";
+    cin >> b;
+    cout << "Введите угол при большем основании трапеции в градусах: ";
+    cin >> alpha;
+    area = ((a + b) / 2) * (b - a) * tan(alpha * M_PI / 180);
+    cout << "Площадь трапеции равна " << area << endl;
+    return 0;
+}
