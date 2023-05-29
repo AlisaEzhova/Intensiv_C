@@ -1,0 +1,17 @@
+//Задание 20
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    double r, circumference, area;
+    const double PI = 3.14159;
+    cout << "Введите радиус окружности: ";
+    cin >> r;
+    circumference = 2 * PI * r;
+    area = PI * pow(r, 2);
+    cout << "Длина окружности: " << circumference << endl;
+    cout << "Площадь круга: " << area << endl;
+    return 0;
+}
