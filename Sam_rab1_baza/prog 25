@@ -1,0 +1,19 @@
+//Задание 25
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, x;
+
+    cout << "Введите значение a: ";
+    cin >> a;
+
+    cout << "Введите значение b: ";
+    cin >> b;
+
+    x = -b / a; // вычисляем значение x
+
+    cout << "Решение уравнения " << a << "x + " << b << " = 0: x = " << x << endl;
+
+    return 0;
+}
