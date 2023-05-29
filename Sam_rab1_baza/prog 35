@@ -1,0 +1,17 @@
+//Задание 35#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, c, volume, area;
+    cout << "Введите длину первой стороны: ";
+    cin >> a;
+    cout << "Введите длину второй стороны: ";
+    cin >> b;
+    cout << "Введите длину третьей стороны: ";
+    cin >> c;
+    volume = a * b * c;
+    area = 2 * (a * b + b * c + a * c);
+    cout << "Объем параллелепипеда равен " << volume << endl;
+    cout << "Площадь боковой поверхности параллелепипеда равна " << area << endl;
+    return 0;
+}
