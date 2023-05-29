@@ -1,0 +1,21 @@
+//Задание 22, а) и б)
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    double avg_arithm, avg_geom;
+
+    cout << "Введите два целых числа: ";
+    cin >> a >> b;
+
+    avg_arithm = (a + b) / 2.0; // вычисляем среднее арифметическое
+    avg_geom = sqrt(a * b); // вычисляем среднее геометрическое
+
+    cout << "Среднее арифметическое: " << avg_arithm << endl;
+    cout << "Среднее геометрическое: " << avg_geom << endl;
+
+    return 0;
+}
